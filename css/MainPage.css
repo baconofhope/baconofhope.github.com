@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+.circle {
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	display: block;
+	width: 300px;
+	height: 300px;
+	border-style: none;
+	border-radius: 150px;
+	border-color: #1a1a1a;
+	font-size: 72px;
+	font-family:"Times New Roman", Times, serif;
+	font-style: italic;
+	color: #fff;
+	line-height: 300px;
+	text-align: center;
+	text-decoration: none;
+	background: #FF0000
+}
+
+.circle:hover {
+	line-height: 304px;
+	text-indent: 2px;
+	font-size: 71px;
+	text-decoration: none;
+/* 	background: #FF3333; */
+	box-shadow: 1px 1px 1px 3px #111 inset	
+}
+
+.square {
+ 	position: absolute; 
+ 	top: 0px;
+ 	left: 470px; 
+	display: block;
+	width: 400px;
+	height: 400px;
+	font-size: 48px;
+	font-family: Times, serif;
+	font-style: italic;
+	color: #fff;
+	line-height: 400px;
+	text-align: right;
+	text-decoration: none;
+	background: #0066FF;
+	-webkit-transition: 1s ease-in-out
+}
+
+.square:hover
+{ 
+-webkit-transform: translate(0px,-50px);
+}
+
+.squareresume {
+ 	position: absolute; 
+ 	top: 400px;
+ 	left: 470px; 
+	display: block;
+	border-style: none;
+	width: 250px;
+	height: 250px;
+	font-size: 48px;
+	font-family: Times, serif;
+	font-style: italic;
+	color: #fff;
+	line-height: 100px;
+	text-align: right;
+	text-decoration: none;
+	background: #0099CC;
+	-webkit-transition: 1s ease-in-out
+}
+
+.squareresume:hover
+{ 
+-webkit-transform: translate(0px,50px);
+}
+
+.squarecontact {
+ 	position: absolute; 
+ 	top: 475px;
+ 	left: 695px; 
+	display: block;
+	border-style: none;
+	width: 250px;
+	height: 100px;
+	font-size: 48px;
+	font-family:Times, serif;
+	font-style: italic;
+	color: #fff;
+	line-height: 100px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 10px;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	background: #33CC99;
+	-webkit-transition: 1s ease-in-out
+}
+
+.squarecontact:hover
+{ 
+-webkit-transform: rotate(90deg) translate(50px,0px);
+}
+
+.kathy {
+ 	position: absolute; 
+ 	top: 250px;
+ 	left: 550px; 
+ 	z-index:1;
+	display: block;
+	border-style: none;
+}
+
+
